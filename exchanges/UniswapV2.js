@@ -4,6 +4,6 @@ const ratio1ToPrice = (amount1In, amount0Out) =>
   (Number(amount1In) / Number(amount0Out)) * 10 ** 12;
 
 module.exports = {
-  ratio0ToPrice,
+  ratio0ToPrice(),
   ratio1ToPrice,
 };
